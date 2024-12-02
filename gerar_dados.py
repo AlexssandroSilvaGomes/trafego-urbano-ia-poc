@@ -9,7 +9,7 @@ horas = list(range(0, 24))
 
 # Criar lista de dados
 data = []
-for _ in range(1000):  # Gera 1000 entradas
+for _ in range(10000):  # Gera 1000 entradas
     origem = random.choice(origens)
     destino = random.choice(destinos)
     hora = random.choice(horas)
